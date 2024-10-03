@@ -21,13 +21,13 @@
     <script type="module">
         import { io } from "socket.io-client";
 
-         /* const socket = io("http://127.0.0.1:3000/", {
+         const socket = io("http://127.0.0.1:3001/", {
              transports: ["websocket"]
-         }); */
+         });
 
-        const socket = io("https://soketio-diagramador-production.up.railway.app/", {
+        /* const socket = io("https://soketio-diagramador-production.up.railway.app/", {
             transports: ["websocket"]
-        });
+        }); */
 
         // const socket = io("https://diagram-socket.herokuapp.com/", {
         //     transports: ["websocket"]
